@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ee83980e274ad43b62dee529970a09, type: 3}
+  m_Name: BigHealthPotion
+  m_EditorClassIdentifier: 
+  Id: 1
+  name: Big Health Potion
+  description: "Cette potion vous permet de regagner 20 point de vie. Cela correspont
+    \xE0 une attaque d'un ennemie !"
+  image: {fileID: 1403587553, guid: 99ca215d892868a4a9d5cafa0220b802, type: 3}
+  hpToGive: 20
+  SpeedToGive: 0
+  speedDuration: 0
+  price: 10

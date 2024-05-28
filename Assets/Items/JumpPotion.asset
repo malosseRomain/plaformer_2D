@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ee83980e274ad43b62dee529970a09, type: 3}
+  m_Name: JumpPotion
+  m_EditorClassIdentifier: 
+  image: {fileID: -1926997003, guid: 99ca215d892868a4a9d5cafa0220b802, type: 3}
+  Id: 4
+  name: Jump Potion
+  description: "Cette potion augmente de 30% votre hauteur de saut avec cela vous
+    all\xE9 pouvoir sauter assez haut pour tuez le boss."
+  hpToGive: 0
+  SpeedToGive: 0
+  speedDuration: 0
+  Jump: 3
+  JumpDuration: 100
+  price: 10

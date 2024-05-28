@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1561423473731470184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1561423473731470186}
+  - component: {fileID: 1561423473731470197}
+  - component: {fileID: 1561423473731470196}
+  - component: {fileID: 1561423473731470199}
+  - component: {fileID: 2094746692}
+  - component: {fileID: 2094746695}
+  - component: {fileID: 2094746698}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1561423473731470186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561423473731470184}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.329512, y: 2.463435, z: 9.1604595}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1561423473731470197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561423473731470184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f427a663741def343aa00bee652a0b23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AffichageMenu: {fileID: 0}
+  ParamFenetre: {fileID: 0}
+--- !u!114 &1561423473731470196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561423473731470184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac75dd2bd678f634aafdf7d776d29c15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIpause: {fileID: 0}
+  ParamFenetre: {fileID: 0}
+--- !u!114 &1561423473731470199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561423473731470184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4037e8343e743084185a29c25f1facbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2094746692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561423473731470184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f490ba7b9ef7cb4883767bfac333bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PNGnametext: {fileID: 0}
+  dialogueText: {fileID: 0}
+  animator: {fileID: 0}
+--- !u!114 &2094746695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561423473731470184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3681689abac55c429b61bfe050cb40b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PNGnametext: {fileID: 0}
+  animator: {fileID: 0}
+  SellButtonPrefab: {fileID: 7413617261070206966, guid: 71ee822accdeb494ea8a1d2ce9e46a77, type: 3}
+  SellButtonsParent: {fileID: 0}
+--- !u!114 &2094746698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561423473731470184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3737901a4042771418b70de350c475a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Allitems:
+  - {fileID: 11400000, guid: ab3ed7b7d8c86e645af96ee232c536b0, type: 2}
+  - {fileID: 11400000, guid: 9cf001e227633874bb255054d504e771, type: 2}
+  - {fileID: 11400000, guid: dd7aeaf965f3c274396414d4a874e89e, type: 2}
